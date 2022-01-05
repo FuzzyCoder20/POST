@@ -1,0 +1,108 @@
+.sidebar {
+    margin-top: 10px;
+    
+}
+.sidebar_btn button {
+    background: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding:5px 10px;
+    box-shadow:2px 2px 2px #ccc;
+    margin-left: 20px;
+}
+.sidebar_btn button span {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.sidebar_options {
+    margin-top:10px
+}
+.sidebar_option {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+.sidebar_option:hover {
+    background: whitesmoke;
+    
+    cursor: pointer;
+}
+.sidebar_option svg {
+    color:rgb(78, 78, 78)
+}
+.sidebar_option span {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color:rgb(78, 78, 78)
+}
+
+.sidebar_option-Active {
+    background-color: #e8f0fe;
+}
+.sidebar_option-Active span {
+    color:#1967d2;
+    font-weight: bold;
+}
+.sidebar_option-Active svg {
+    color:#1967d2;
+    }
+.progress_bar {
+    padding: 0px 20px;
+}
+.progress_bar span {
+    display: block;
+    color:#333;
+    font-size: 13px;
+}
+
+.modal_pop {
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeading {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+
+input.post__submit {
+    width: 100%;
+    background: #2381fa;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:20px
+}
+input[type="file"] {
+    background: whitesmoke;
+    padding: 20px;
+    color: #000;
+    display: block;
+    margin-top:20px
+}
+
+p.uploading {
+    background: green;
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
